@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Welcome, <span id="user-name"></span></h2>
+        <p>Your role: <span id="user-role"></span></p>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+        // Fetch user data from localStorage
+        const userName = localStorage.getItem("userName");
+        const userRole = localStorage.getItem("userRole");
+        const token = localStorage.getItem("token");
+
+        if (userName) {
+            document.getElementById("user-name").textContent = userName;
+            document.getElementById("user-role").textContent = userRole;
+            // Optionally, you can fetch role from API if needed
+        } else {
+            window.location.href = "login.html"; // Redirect to login if no user found
+        }
+
+        function logout() {
+            localStorage.removeItem("token");
+            localStorage.removeItem("userName");
+            localStorage.removeItem("userRole");
+            window.location.href = "login.html"; // Redirect to login
+
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="D:\Coding\shopbarber\style.css">
+
+</head>
+<body>
+
+    <header>
+        <p class="logo_container">Service book </p>      
+        <div>
+          <nav class="nav_bar">
+              <a href="#">Home</a>
+               <a href="#Category">Category</a>
+              <a href="about.html">About us</a>
+              
+              <a href="bookapointment.html">Book <sup>New</sup></a>
+              
+          </nav>
+        </div>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for Repairing shops, Clinics, and more">
+        </div>
+  
+        <!-- <div class="current_location">
+          <button  class="btn btn-info" type="button" onclick="getlocation();">
+              <i class="fa-solid fa-location-dot" style="color:red;"></i>
+          </button>
+  
+        </div> -->
+        
+        <!-- <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon"></span>
+                
+                <button><a href="loginSignup.html" class="action_name">Login</a></button>
+            </div>
+        </div> -->
+   
+    </header>
+    
+ 
+    <!-- Login Form -->
+    <div class="login-body">
+        <div class="form-container" id="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" onclick="showSignup()">Sign Up</a></p>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="form-container" id="signup-container" style="display: none;">
+            <h2>Signup</h2>
+            <form id="signup-form">
+                <input type="text" id="signup-name" placeholder="Full Name" required>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <select id="role" required>
+                    <option value="customer">Customer</option>
+                    <option value="shopkeeper">Shopkeeper</option>
+                </select><br><br><br><br>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-pannel1">
+            Back to Top
+        </div>
+        <div class="footer-pannel2">
+            <ul>
+                
+                <p>   Get to know us</p>
+                  <a>  Careers </a>
+                  <a>  Blogs</a>
+                  <a> About ServiceBook</a>
+                  <a>   Investor Relations</a>
+                
+                
+            </ul>
+        <!-- </div>
+        <div class="footer-pannel2"> -->
+            <ul>
+                
+                <p>  
+                     Connect with Us
+                     <a> Facebook</a>
+                     <a>  Twitter</a>
+                        <a>  Instagram
+                            </a>
+                        </p>
+                 
+                
+            </ul>
+        <!-- </div>
+        <div class="footer-pannel2"> -->
+            <ul>
+             <p>Make Money with Us</p>   
+                <a>Register on ServiceBook</a>
+                
+                <a>Protect and Build Your Brand</a> 
+                <a>Service Book Relations</a>
+                <a>Become an Affiliate</a> 
+                <a>Fulfilment by Services</a>
+                <a>Advertise Your Products</a>
+                
+            </ul>
+            <ul>
+                
+                <p>   Get to know us</p>
+                  <a>  Careers </a>
+                  <a>  Blogs</a>
+                  <a> About ServiceBook</a>
+                  <a>   Investor Relations</a>
+                 
+                
+            </ul>
+            <ul>
+                       <p>Let Us Help You</p>     
+              
+               <a>Your Account</a> 
+               
+                <a> 100% Service Protection</a> 
+                <a>  App Download</a>
+                  <a> Help</a> 
+            </ul>
+        </div>
+        <!-- <div class="footer-pannel3">
+            <div class="logo"></div>
+        </div> -->
+        <div class="footer-panel4">
+            <div class="pages">
+                <a>Condition of Use</a>
+                <a>Your privacy</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                            
+            2024 copyright @ Service Book
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

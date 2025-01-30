@@ -1,0 +1,162 @@
+
+/* Css code for the recommendations page */
+.recommendations {
+  /* width: 1261px; */
+  width: 100%;
+  height: 420.17px;
+  top: 1957.16px;
+  opacity: 1;
+  background: #F0F0F6;
+}
+
+.recom-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* gap: 10px; */
+  padding: 10px;
+  /* margin-bottom: 30px; */
+
+}
+
+.test-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.test-cards h3 {
+  display: flex;
+  /* justify-content: start; */
+  margin-left: 25px;
+}
+
+.test-cards p {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile-info img {
+  height: 100px !important;
+  width: 70px !important;
+  /* Maintain aspect ratio */
+
+}
+
+.profile-info span h4 {
+  margin: 10px;
+}
+
+.profile-info span h5 {
+  color: #767676;
+  ;
+}
+
+.recom-text h4 {
+  margin: 10px;
+  color: #767676;
+
+}
+
+#testimonials-container {
+  width: 1257px;
+  margin: auto;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 60px;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #F0F0F6;
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+
+  height: 327.1px;
+  /* Fixed height */
+  /* left: 463px;        Position from the left */
+
+}
+
+.swiper-slide img {
+  height: 17px;
+  width: 144px;
+  display: flex;
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+.swiper-pagination{
+  margin-bottom: -12px;
+  /* background-color: aqua; */
+  
+}
+
+/* Responsive code for the mobile devices */
+/* Mobile styles (for devices with screen width 768px or smaller) */
+@media only screen and (max-width: 768px) {
+
+  /* Adjusting the container and text for mobile */
+  #testimonials-container {
+      width: 100%;
+      /* flex-direction: column;   */
+      align-items: center;
+      height: 20pc;
+      /* width: 0vw; */
+  }
+
+  .recom-text {
+      padding: 5px;
+      margin-bottom: 20px;
+  }
+
+  .recom-text h4 {
+      font-size: 14px;
+      margin: 5px;
+  }
+
+  .recommendations {
+      width: 100%;
+      height: auto;
+      gap: 20px;
+      padding: 20px;
+      background: #F0F0F6;
+      /* margin-top: 10px; */
+  }
+
+  .swiper {
+      width: 100%;
+      height: auto;
+  }
+
+  .swiper-slide {
+      flex-direction: column;
+      font-size: 16px;
+      padding: 20px;
+  }
+
+  .swiper-slide img {
+      width: 100%;
+      height: auto;
+      /* Adjust image height to fit */
+      object-fit: contain;
+      /* Keep the image aspect ratio */
+  }
+}

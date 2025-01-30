@@ -1,0 +1,123 @@
+
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.appointment-container{
+    margin-top: 0%;
+    background-image: url(../img/slide-3.jpg);
+    /* height: 500px; */
+    background-size: cover;
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 2em;
+    background-color: #f1faf8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+/* Input and label styling */
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+}
+
+input[type="text"], input[type="date"], input[type="time"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.container {
+max-width: 500px;
+/* max-height: 500px; */
+margin: auto;
+padding: 20px;
+background: #f9f9f9;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+label {
+font-weight: bold;
+display: block;
+margin-top: 10px;
+}
+input, select, button {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+button {
+background: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+button:hover {
+background: #0056b3;
+}
+
+#previousAppointments{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.appointment-card {
+background: #bbffdd;
+padding: 15px;
+border: 1px solid #ddd;
+border-radius: 5px;
+margin-bottom: 10px;
+width: 400px;
+
+
+
+
+
+}
+
+
+/* Button styling */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #9aff9f;
+}
+.footer-pannel1{
+    margin-top: 0%;
+}
+

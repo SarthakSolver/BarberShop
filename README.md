@@ -1,1 +1,1 @@
-# BarberShop
+# Smart Queue Systems
